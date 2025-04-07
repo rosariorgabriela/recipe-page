@@ -1,0 +1,147 @@
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit-font {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+body {
+  font-family: "Outfit";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: hsl(30, 54%, 90%);
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    width: 100vw;
+    min-height: 100vh;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    width: 100vw;
+    min-height: 100vh;
+  }
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  background-color: white;
+  padding: 35px;
+  margin: 30px;
+  border-radius: 15px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  body main {
+    width: 310px;
+  }
+}
+body main .hero-img {
+  border-radius: 15px;
+}
+body main .heading {
+  font-family: "Young Serif";
+  color: hsl(24, 5%, 18%);
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 25px;
+  margin: 0px;
+}
+body main .hero-section-caption {
+  margin-top: 12px;
+  margin-bottom: 25px;
+}
+body main .prep-time {
+  color: hsl(30, 10%, 34%);
+  font-size: 13px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  padding: 0px 15px 15px 5px;
+  font-size: 12px;
+}
+body main .prep-time h4 {
+  font-size: 15px;
+  color: hsl(332, 51%, 32%);
+  padding: 0px;
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+body main .prep-time ul {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+body main .prep-time li::marker {
+  color: hsl(332, 51%, 32%);
+}
+body main .instructions ol {
+  padding: 0px 15px 10px 15px;
+}
+body main .ingredients ul {
+  padding: 0px 15px 10px 15px;
+}
+body main .ingredients li::marker {
+  color: hsl(14, 45%, 36%);
+}
+body main .instructions li::marker {
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
+body main .sub-heading {
+  font-family: "Young Serif";
+  color: hsl(14, 45%, 36%);
+  font-weight: 100;
+  padding: 0;
+}
+body main ul {
+  margin-bottom: 25px;
+}
+body main ul li {
+  margin-bottom: 8px;
+}
+body main hr {
+  color: hsl(30, 10%, 34%);
+  border-top: 1px;
+  opacity: 0.3;
+}
+body main table {
+  width: 100%;
+}
+body main table td {
+  padding: 10px 20px;
+  border-bottom: 1px solid hsla(30, 10%, 34%, 0.2);
+}
+body main .bold-text {
+  font-weight: bold;
+}
+body main .bullet-point-spacing {
+  position: relative;
+  padding-left: 10px;
+}
+body main .nutrition-info .bold-text {
+  color: hsl(14, 45%, 36%);
+}
+body main .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+body main .attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body:not(.heading) {
+  line-height: 1.5;
+  font-size: 12px;
+  color: hsl(30, 10%, 34%);
+}
+
+/*# sourceMappingURL=styles.css.map */
